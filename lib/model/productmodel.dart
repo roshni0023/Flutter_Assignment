@@ -1,5 +1,5 @@
 
-class Data{
+class Plant{
   String? name;
   int? numdata;
   String? image;
@@ -8,6 +8,6 @@ class Data{
   String? stringdata;
   String? extra;
 
-  Data({this.name, this.numdata, this.image, this.doubledata, this.time, this.stringdata,
+  Plant({this.name, this.numdata, this.image, this.doubledata, this.time, this.stringdata,
     this.extra});
 }

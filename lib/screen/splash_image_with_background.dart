@@ -1,8 +1,7 @@
 
 import 'dart:async';
 
-import 'package:assignmentflutter/screen/gridview/gridview1.dart';
-import 'package:assignmentflutter/screen/listView/listView_separated.dart';
+import 'package:assignmentflutter/screen/listView/home.dart';
 import 'package:assignmentflutter/screen/registration.dart';
 import 'package:flutter/material.dart';
 import 'package:assignmentflutter/screen/loginpage.dart';
@@ -13,14 +12,14 @@ class Splash_with_Image extends StatelessWidget {
   Widget build(BuildContext context) {
     Timer(const Duration(seconds: 3), () {
       Navigator.push(
-          context, MaterialPageRoute(builder: (context) => RegistrationPage()));
+          context, MaterialPageRoute(builder: (context) => HomePage()));
     });
     return Scaffold(
       body: Container(
         decoration: const BoxDecoration(
             image: DecorationImage(
                 fit: BoxFit.cover,
-                image: AssetImage("assets/image/background.png"))),
+                image: AssetImage("assets/image/img_6.png"))),
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,

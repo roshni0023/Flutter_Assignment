@@ -47,7 +47,7 @@ class _LoginPageState extends State<LoginPage>{
                   image: const DecorationImage(
                       fit: BoxFit.cover,
                       image: AssetImage(
-                          "assets/image/background.png"))),
+                          "assets/image/img_6.png"))),
             ),
             Text(
                 "welcome back",
